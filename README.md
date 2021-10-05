@@ -12,6 +12,8 @@ Get-AppxPackage Microsoft.ZuneVideo -AllUsers | Reset-AppxPackage
 
 Get-AppxPackage Microsoft.WindowsNotepad -AllUsers | Reset-AppxPackage
 
+Get-AppxPackage Microsoft.MicrosoftEdge.Stable -AllUsers | Reset-AppxPackage
+
 ## Show all windows apps
 
 Get-AppXPackage -AllUsers|Format-Table
